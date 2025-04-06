@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Apps</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .header {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 48px;
+            margin: 0;
+            color: #00b4b4;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .header p {
+            font-size: 18px;
+            color: #cccccc;
+            margin: 10px 0 0;
+            font-style: italic;
+        }
+        .container {
+            max-width: 900px;
+            padding: 40px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+        }
+        .app-card {
+            background-color: #2b2b2b;
+            padding: 25px;
+            border-radius: 10px;
+            width: 320px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            text-decoration: none;
+            color: #ffffff;
+        }
+        .app-card:hover {
+            transform: translateY(-5px);
+            background-color: #00b4b4;
+        }
+        .app-card h2 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .app-card p {
+            font-size: 16px;
+            color: #cccccc;
+            margin: 5px 0 0;
+        }
+        .footer {
+            margin-top: auto;
+            padding: 30px;
+            font-size: 14px;
+            color: #888888;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Web Apps</h1>
+        <p>Simple tools to solve big problems.</p>
+    </div>
+    <div class="container">
+        <a href="https://bldrgco.github.io/Content-Format-Generator/" class="app-card">
+            <h2>Content Format Generator</h2>
+            <p>A simple tool that helps you structure your content using proven copywriting formats—so you can turn ideas into impactful writing, fast.</p>
+        </a>
+        <a href="https://bldrgco.github.io/Compound-Calculator/" class="app-card">
+            <h2>Compound Calculator</h2>
+            <p>Compute compound interest in seconds.</p>
+        </a>
+    </div>
+    <div class="footer">
+        © 2025 Web Apps. All rights reserved.
+    </div>
+</body>
+</html>
